@@ -4,7 +4,7 @@ import { sql } from "@vercel/postgres";
 import { z } from "zod";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
-import { error } from "console";
+// import { error } from "console";
 // import * as postgres from '@vercel/postgres';
 
 // const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
